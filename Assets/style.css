@@ -1,0 +1,125 @@
+body {
+   background: pink; 
+}
+.intro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+h1 {
+    font-size: 70px;
+}
+
+#firstbox {
+    background-color: pink;
+    height: 600px;
+}
+#midsection {
+    opacity: 1;
+    margin-top: 50px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+   
+}
+@keyframes flip {
+    0% {transform: rotate(0deg);}
+    
+    100% {transform: rotate(360deg);}
+	
+	
+
+}
+.child {
+    width: 100px;
+    height: 100px;
+    
+    
+    display: flex;
+    flex-direction: row;
+       
+
+}
+img {
+    border-radius: 25px;
+}
+.about {
+    animation-name: flip;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.fun {
+    animation-delay: .5s;
+    animation-name: flip;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.contact {
+    animation-delay: 1s;
+    animation-name: flip;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+a {
+    border-radius: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#aboutbox {
+    background-color: rgb(255, 204, 213);
+    height: 550px;
+    width: 900px;
+    border-radius: 20px;
+    margin: auto;
+}
+#funbox {
+    background-color: rgb(255, 204, 213);
+    height: 550px;
+    width: 900px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#contactbox {
+    background-color: rgb(255, 204, 213);
+    height: 550px;
+    border-radius: 20px;
+    margin: auto;
+    width: 900px;
+    
+}
+
+
+
+#bulletpoint {
+    font-size: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+
+}
+.mail {
+    opacity: .7;
+}
+.mail:hover {
+    transform: scale(1.25);
+}
